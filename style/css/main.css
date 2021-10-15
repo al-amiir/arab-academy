@@ -11139,6 +11139,10 @@ body {
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 .carousel {
   border: 1px solid;
   height: 426px;
@@ -11165,6 +11169,23 @@ body {
   text-decoration: none;
   border-radius: 5px;
   margin: 5px 10px 5px 10px;
+}
+
+.instruction {
+  padding: 20px;
+}
+.instruction-1 {
+  background-color: #eef7fb;
+}
+.instruction-2 {
+  background-color: #ffffff;
+}
+.instruction_component {
+  padding: 30px;
+  border: 1px solid;
+}
+.instruction_component span {
+  font-size: 2rem;
 }
 
 /*# sourceMappingURL=main.css.map */

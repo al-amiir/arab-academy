@@ -1,0 +1,16 @@
+.instruction {
+  padding: 20px;
+  &-1 {
+    background-color: #eef7fb;
+  }
+  &-2 {
+    background-color: #ffffff;
+  }
+  &_component {
+    padding: 30px;
+    border: 1px solid;
+    span {
+      font-size: 2rem;
+    }
+  }
+}
