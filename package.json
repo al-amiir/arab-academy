@@ -1,0 +1,23 @@
+{
+  "name": "arab-academy",
+  "version": "1.0.0",
+  "description": "Redesign Admission Website, (Main Page Only) ",
+  "main": "index.js",
+  "scripts": {
+    "sass:watch": "sass ./style/scss/main.scss ./style/css/main.css --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/al-amiir/arab-academy.git"
+  },
+  "author": "al-amir",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/al-amiir/arab-academy/issues"
+  },
+  "homepage": "https://github.com/al-amiir/arab-academy#readme",
+  "dependencies": {
+    "bootstrap": "^5.1.3",
+    "sass": "^1.43.2"
+  }
+}
