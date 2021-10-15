@@ -11118,17 +11118,17 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.button {
-  color: black;
-}
-.button {
-  color: blue;
-}
-
 @media (min-width: 768px) {
   .container {
     background-color: brown;
   }
+}
+.carousel {
+  border: 1px solid;
+  height: 426px;
+}
+.carousel-inner {
+  height: 100%;
 }
 
 /*# sourceMappingURL=main.css.map */

@@ -1,13 +1,9 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
-.button {
-  color: black;
-  & {
-    color: blue;
-  }
-}
 
 @include media-breakpoint-up(md) {
   .container {
     background-color: brown;
   }
 }
+
+@import "./component/caursoul.scss";
