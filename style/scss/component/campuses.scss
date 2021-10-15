@@ -1,0 +1,21 @@
+.campuses {
+  span {
+    padding: 15px 0px;
+    width: 100px;
+    font-size: 1.5rem;
+  }
+  &_links {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    & > * {
+      background-color: #f07582;
+      padding: 10px;
+      font-size: 1rem;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      margin: 5px 10px 5px 10px;
+    }
+  }
+}

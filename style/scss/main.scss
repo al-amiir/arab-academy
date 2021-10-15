@@ -5,5 +5,7 @@
     background-color: brown;
   }
 }
+@import "./base/base.scss";
 
 @import "./component/caursoul.scss";
+@import "./component/campuses.scss";
