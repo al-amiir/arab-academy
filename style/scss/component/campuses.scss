@@ -1,17 +1,16 @@
 .campuses {
   span {
-    padding: 15px 0px;
-    width: 100px;
-    font-size: 1.5rem;
+    padding: 12px;
+    width: 150px;
+    font-size: 1.8rem;
+    color: #d65368;
+    font-weight: 600;
   }
   &_links {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
     & > * {
       background-color: #f07582;
       padding: 10px;
-      font-size: 1rem;
+      font-size: 1.3rem;
       color: white;
       text-decoration: none;
       border-radius: 5px;
