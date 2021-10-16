@@ -11188,4 +11188,40 @@ a {
   font-size: 2rem;
 }
 
+.events {
+  background-color: #e4f7fc;
+}
+.events_latest {
+  margin-bottom: 10px;
+}
+.events_latest-img {
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.events_latest-text {
+  max-width: 500px;
+}
+.events_latest-text span {
+  font-size: 1.2rem;
+}
+.events_upcoming-box {
+  max-width: 430px;
+  margin-bottom: 10px;
+}
+.events_upcoming-box .circle {
+  padding: 5px;
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  text-align: center;
+  border-radius: 26px;
+  margin-right: 10px;
+}
+.events_upcoming-box .circle p {
+  margin: 0px;
+}
+.events_upcoming-box p {
+  font-size: 1.2rem;
+}
+
 /*# sourceMappingURL=main.css.map */
