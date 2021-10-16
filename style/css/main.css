@@ -11139,6 +11139,10 @@ body {
   box-sizing: border-box;
 }
 
+section {
+  padding-left: 20px;
+}
+
 a {
   text-decoration: none;
 }
@@ -11230,6 +11234,28 @@ a {
 .footer a {
   text-decoration: none;
 }
+.footer_header {
+  color: #ccdfcd;
+  border-bottom: 1px solid;
+  font-size: 2.5rem;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.footer_img {
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px 15px 0px;
+  outline: 1px solid white;
+  padding: 4px;
+}
+.footer_text a {
+  color: #8dc4c0;
+  font-size: 1.6rem;
+}
+.footer_icons {
+  font-size: 3rem;
+  margin: 10px 0px;
+}
 .footer_rights {
   background-color: #125580;
   color: #7aa5b3;
@@ -11244,6 +11270,15 @@ a {
 .footer_rights-phone {
   color: #42c0fb;
   font-size: 2rem;
+}
+
+.button_viewmore {
+  margin-top: 10px;
+  background-color: #4bb4df;
+  padding: 8px;
+  font-size: 1.3rem;
+  color: white;
+  border-radius: 6px;
 }
 
 /*# sourceMappingURL=main.css.map */
