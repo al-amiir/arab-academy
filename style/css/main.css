@@ -11147,12 +11147,8 @@ a {
   text-decoration: none;
 }
 
-.carousel {
-  border: 1px solid;
-  height: 426px;
-}
-.carousel-inner {
-  height: 100%;
+.carousel-container {
+  background-color: #5bc0ee;
 }
 
 .campuses span {
