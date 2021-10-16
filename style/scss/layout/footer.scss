@@ -1,0 +1,23 @@
+.footer {
+  background-color: #1a648a;
+  a {
+    text-decoration: none;
+  }
+  &_text {
+  }
+  &_rights {
+    background-color: #125580;
+    color: #7aa5b3;
+    text-align: center;
+    font-size: 1.2rem;
+    padding: 30px;
+    &-number {
+      font-size: 2rem;
+      color: #f1f1f1;
+    }
+    &-phone {
+      color: #42c0fb;
+      font-size: 2rem;
+    }
+  }
+}
