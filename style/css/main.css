@@ -11140,7 +11140,7 @@ body {
 }
 
 section {
-  padding-left: 20px;
+  padding: 20px 0px 10px 20px;
 }
 
 a {
@@ -11195,37 +11195,69 @@ a {
 .events {
   background-color: #e4f7fc;
 }
-.events_latest {
+.events_header {
+  color: #37669c;
+  font-size: 2.5rem;
   margin-bottom: 10px;
+  font-weight: 500;
+}
+.events_latest {
+  margin-bottom: 15px;
 }
 .events_latest-img {
+  width: 193px;
+  height: 150px;
   margin-right: 10px;
   margin-bottom: 10px;
 }
 .events_latest-text {
   max-width: 500px;
 }
-.events_latest-text span {
-  font-size: 1.2rem;
+.events_latest-text-1 {
+  color: #237aa7;
+  font-size: 1.8rem;
+}
+.events_latest-text-2 {
+  color: #8598ac;
+  font-size: 1.5rem;
 }
 .events_upcoming-box {
-  max-width: 430px;
-  margin-bottom: 10px;
+  margin-bottom: 20px;
 }
 .events_upcoming-box .circle {
   padding: 5px;
-  background-color: blue;
-  height: 50px;
-  width: 50px;
+  background-color: #a2d5e6;
+  height: 60px;
+  width: 60px;
   text-align: center;
-  border-radius: 26px;
+  border-radius: 43px;
   margin-right: 10px;
+  margin-bottom: 10px;
 }
 .events_upcoming-box .circle p {
   margin: 0px;
+  font-size: 1.5rem;
 }
-.events_upcoming-box p {
-  font-size: 1.2rem;
+.events_upcoming-box-text {
+  max-width: 430px;
+}
+.events_upcoming-box-text p {
+  font-size: 1.6rem;
+}
+
+.button_readmore {
+  font-size: 1.5rem;
+  color: #859dc3;
+}
+.button_moreevents {
+  padding: 11px;
+  background-color: #74c1cf;
+  width: 107px;
+  font-size: 1.5rem;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  color: white;
+  text-decoration: none;
 }
 
 .footer {

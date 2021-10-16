@@ -1,38 +1,71 @@
 .events {
   background-color: #e4f7fc;
-  &_latest {
+  &_header {
+    color: #37669c;
+    font-size: 2.5rem;
     margin-bottom: 10px;
+    font-weight: 500;
+  }
+  &_latest {
+    margin-bottom: 15px;
     &-img {
       //   width: 150px;
+      width: 193px;
+      height: 150px;
       margin-right: 10px;
       margin-bottom: 10px;
     }
     &-text {
       max-width: 500px;
-      span {
-        font-size: 1.2rem;
+      &-1 {
+        color: #237aa7;
+        font-size: 1.8rem;
+      }
+      &-2 {
+        color: #8598ac;
+        font-size: 1.5rem;
       }
     }
   }
   &_upcoming {
     &-box {
-      max-width: 430px;
-      margin-bottom: 10px;
+      margin-bottom: 20px;
       .circle {
         padding: 5px;
-        background-color: blue;
-        height: 50px;
-        width: 50px;
+        background-color: #a2d5e6;
+        height: 60px;
+        width: 60px;
         text-align: center;
-        border-radius: 26px;
+        border-radius: 43px;
         margin-right: 10px;
+        margin-bottom: 10px;
         p {
           margin: 0px;
+          font-size: 1.5rem;
         }
       }
-      p {
-        font-size: 1.2rem;
+      &-text {
+        max-width: 430px;
+        p {
+          font-size: 1.6rem;
+        }
       }
     }
+  }
+}
+.button {
+  &_readmore {
+    font-size: 1.5rem;
+    color: #859dc3;
+  }
+  &_moreevents {
+    padding: 11px;
+    background-color: #74c1cf;
+    width: 107px;
+    font-size: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    color: white;
+    text-decoration: none;
   }
 }
