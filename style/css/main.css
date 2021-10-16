@@ -11186,10 +11186,27 @@ a {
 }
 .instruction_component {
   padding: 30px;
-  border: 1px solid;
+  text-align: center;
 }
-.instruction_component span {
-  font-size: 2rem;
+.instruction_component-text-header {
+  font-size: 3rem;
+}
+.instruction_component-text-p {
+  font-size: 1.5rem;
+  color: #668292;
+}
+.instruction_component-text-p-1 {
+  color: #3692bf;
+  text-decoration: none;
+  font-size: 1.4em;
+}
+.instruction .button_readmore {
+  padding: 10px;
+  background-color: #f2b02e;
+  color: white;
+  text-decoration: none;
+  font-size: 1.3rem;
+  border-radius: 4px;
 }
 
 .events {
