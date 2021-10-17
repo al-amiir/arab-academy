@@ -1,17 +1,14 @@
 @import "../../node_modules/bootstrap/scss/bootstrap.scss";
 
-@include media-breakpoint-up(md) {
-  .container {
-    background-color: brown;
-  }
-}
 @import "./base/base.scss";
 @import "./base/typography.scss";
 
+@import "./component/date.scss";
 @import "./component/caursoul.scss";
 @import "./component/campuses.scss";
 @import "./component//instruction.scss";
 @import "./component/events.scss";
+@import "./component/welcome.scss";
 
 @import "./layout/footer.scss";
 @import "./layout/header.scss";

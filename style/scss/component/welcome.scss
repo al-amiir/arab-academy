@@ -1,0 +1,26 @@
+.welcome {
+  padding: 0px;
+  background-color: #369aba;
+  color: white;
+  border-bottom: 6px solid orange;
+  &_text {
+    margin: 30px;
+    @include media-breakpoint-down(lg) {
+      background-image: url("https://via.placeholder.com/600X500/000000");
+      background-position: center;
+      margin: 0;
+      padding: 20px;
+    }
+
+    &-header {
+      margin-top: 20px;
+      font-size: 2rem;
+      margin-bottom: 20px;
+    }
+  }
+  &_img {
+    @include media-breakpoint-down(lg) {
+      display: none;
+    }
+  }
+}
