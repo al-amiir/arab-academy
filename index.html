@@ -27,38 +27,58 @@
   <body>
     <div class="container-fluid">
       <!-- Header -->
-      <section class="header">
-        <!-- 1 -->
-        <div class="row">
-          <div class="col-md-6 bg-primary">LOGO</div>
-          <div class="col-md-6 d-flex justify-content-around">
-            <button class="bg-primary">lang<span>flag</span></button>
-            <form class="d-flex bg-primary">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                <i class="fa fa-search"></i>
-              </button>
-            </form>
-          </div>
+      <!-- 1 -->
+      <section class="row header header_1">
+        <div class="col-sm-12 col-md-6 d-flex align-items-center">
+          <img src="./DB/logo.png" alt="" />
         </div>
-        <!-- 2 -->
-        <div class="row">
-          <span class="col-sm-6">Admission</span>
-          <div class="col-sm-6 d-flex justify-content-sm-end">
-            <span> <span class="fa fa-phone"></span>19838</span>
-            <button>
-              <span class="fas fa-envelope-square"></span> send-email
+        <div
+          class="
+            col-sm-12 col-md-6
+            d-flex
+            justify-content-end
+            align-items-center
+          "
+        >
+          <button>
+            العربية <img style="width: 10px" src="./DB/egypt.png" alt="" />
+          </button>
+          <form class="d-flex justify-content-start">
+            <input
+              style="background-color: #f4fafc"
+              class="form-control"
+              type="search"
+              placeholder="AASTMT Search"
+              aria-label="Search"
+            />
+            <button class="btn button button_search" type="submit">
+              <i class="fa fa-search"></i>
             </button>
-            <button><span class="fa fa-mark"></span> Applay Now</button>
-          </div>
+          </form>
         </div>
-        <!-- 3 -->
-        <nav class="row navbar navbar-expand-lg navbar-light bg-primary">
+      </section>
+      <!-- 2 -->
+      <section
+        class="
+          row
+          d-flex
+          justify-content-between
+          align-items-center
+          header header_2
+        "
+      >
+        <span class="col-sm-3 header_admission">Admission</span>
+        <div class="col-sm-4 col-md-3 d-flex justify-content-around">
+          <button><span class="fa fa-phone"></span>19838</button>
+          <button>
+            <span class="fa fa-envelope-square"></span> send-email
+          </button>
+          <button><span class="fa fa-check"></span> Applay Now</button>
+        </div>
+      </section>
+      <!-- 3 -->
+      <section class="row header header_3">
+        <nav class="navbar navbar-expand-lg navbar-dark">
           <div class="container-fluid justify-content-end">
             <button
               class="navbar-toggler"
@@ -279,7 +299,6 @@
           </button>
         </div>
       </section>
-
       <!-- Campuses -->
       <section class="row d-flex justify-content-md-around campuses">
         <span class="col-2">Our Campuses</span>
@@ -613,9 +632,7 @@
           <a class="button button_moreevents" href="#">more events</a>
         </div>
       </section>
-
       <section class="welcome"></section>
-
       <section class="row row-cols-auto d-flex footer">
         <div
           class="col my-5 d-flex flex-column align-items-start"

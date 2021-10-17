@@ -11323,4 +11323,62 @@ a {
   border-radius: 6px;
 }
 
+.header {
+  padding: 0px;
+}
+.header_admission {
+  font-size: 2rem;
+  color: #2c66a5;
+}
+.header_1 button {
+  border: none;
+  background-color: transparent;
+}
+.header_1 .button_search {
+  border: none;
+  width: 60px;
+  background-color: blue;
+  color: white;
+  font-size: 1.5rem;
+}
+.header_1 input {
+  margin: 0;
+}
+.header_1 form {
+  margin-left: 10px;
+  height: 3rem;
+  width: 225px;
+}
+.header_2 {
+  background-color: #caf0fe;
+}
+.header_2 span {
+  color: #2996d3;
+}
+.header_2 button {
+  color: #2996d3;
+  background-color: transparent;
+  border: none;
+  font-size: 1.3rem;
+}
+.header_3 {
+  background-color: #0789bf;
+}
+.header_3 ul {
+  background-color: #0789bf;
+}
+.header_3 a {
+  color: antiquewhite;
+  font-size: 1.4rem;
+}
+.header_3 li {
+  transition: 0.3s ease;
+}
+.header_3 li a {
+  color: white;
+}
+.header_3 li:hover {
+  background-color: darkblue;
+}
+
 /*# sourceMappingURL=main.css.map */

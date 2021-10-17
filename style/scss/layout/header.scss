@@ -1,0 +1,62 @@
+.header {
+  padding: 0px;
+  &_admission {
+    font-size: 2rem;
+    color: #2c66a5;
+  }
+  &_1 {
+    button {
+      border: none;
+      background-color: transparent;
+    }
+    .button_search {
+      border: none;
+      width: 60px;
+      background-color: blue;
+      color: white;
+      font-size: 1.5rem;
+    }
+    input {
+      margin: 0;
+    }
+    form {
+      margin-left: 10px;
+      height: 3rem;
+      width: 225px;
+    }
+  }
+  &_2 {
+    background-color: #caf0fe;
+    span {
+      color: #2996d3;
+    }
+    button {
+      color: #2996d3;
+      background-color: transparent;
+      border: none;
+      font-size: 1.3rem;
+      span {
+      }
+    }
+  }
+  &_3 {
+    background-color: #0789bf;
+
+    ul {
+      background-color: #0789bf;
+    }
+    a {
+      color: antiquewhite;
+      font-size: 1.4rem;
+    }
+    li {
+      transition: 0.3s ease;
+      a {
+        color: white;
+      }
+    }
+    li:hover {
+      background-color: darkblue;
+    }
+  }
+}
